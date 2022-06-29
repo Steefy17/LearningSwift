@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE6E95F2853910A0002E0D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6E95E2853910A0002E0D1 /* main.swift */; };
+		CEE6E966285397270002E0D1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6E965285397270002E0D1 /* Person.swift */; };
+		CEE6E9682853973C0002E0D1 /* Capitano.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6E9672853973C0002E0D1 /* Capitano.swift */; };
+		CEE6E96A285397630002E0D1 /* Personale.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6E969285397630002E0D1 /* Personale.swift */; };
+		CEE6E96C285397750002E0D1 /* Passeggero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6E96B285397750002E0D1 /* Passeggero.swift */; };
+		CEE6E96E285397800002E0D1 /* Aereo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6E96D285397800002E0D1 /* Aereo.swift */; };
+		CEE6E9702853978C0002E0D1 /* Aereoporto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6E96F2853978C0002E0D1 /* Aereoporto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEE6E9592853910A0002E0D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEE6E95B2853910A0002E0D1 /* class Persona */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "class Persona"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE6E95E2853910A0002E0D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEE6E965285397270002E0D1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CEE6E9672853973C0002E0D1 /* Capitano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capitano.swift; sourceTree = "<group>"; };
+		CEE6E969285397630002E0D1 /* Personale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personale.swift; sourceTree = "<group>"; };
+		CEE6E96B285397750002E0D1 /* Passeggero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passeggero.swift; sourceTree = "<group>"; };
+		CEE6E96D285397800002E0D1 /* Aereo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aereo.swift; sourceTree = "<group>"; };
+		CEE6E96F2853978C0002E0D1 /* Aereoporto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aereoporto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE6E9582853910A0002E0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE6E9522853910A0002E0D1 = {
+			isa = PBXGroup;
+			children = (
+				CEE6E95D2853910A0002E0D1 /* class Persona */,
+				CEE6E95C2853910A0002E0D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE6E95C2853910A0002E0D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE6E95B2853910A0002E0D1 /* class Persona */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE6E95D2853910A0002E0D1 /* class Persona */ = {
+			isa = PBXGroup;
+			children = (
+				CEE6E95E2853910A0002E0D1 /* main.swift */,
+				CEE6E965285397270002E0D1 /* Person.swift */,
+				CEE6E9672853973C0002E0D1 /* Capitano.swift */,
+				CEE6E969285397630002E0D1 /* Personale.swift */,
+				CEE6E96B285397750002E0D1 /* Passeggero.swift */,
+				CEE6E96D285397800002E0D1 /* Aereo.swift */,
+				CEE6E96F2853978C0002E0D1 /* Aereoporto.swift */,
+			);
+			path = "class Persona";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE6E95A2853910A0002E0D1 /* class Persona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE6E9622853910A0002E0D1 /* Build configuration list for PBXNativeTarget "class Persona" */;
+			buildPhases = (
+				CEE6E9572853910A0002E0D1 /* Sources */,
+				CEE6E9582853910A0002E0D1 /* Frameworks */,
+				CEE6E9592853910A0002E0D1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "class Persona";
+			productName = "class Persona";
+			productReference = CEE6E95B2853910A0002E0D1 /* class Persona */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE6E9532853910A0002E0D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CEE6E95A2853910A0002E0D1 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = CEE6E9562853910A0002E0D1 /* Build configuration list for PBXProject "class Persona" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE6E9522853910A0002E0D1;
+			productRefGroup = CEE6E95C2853910A0002E0D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE6E95A2853910A0002E0D1 /* class Persona */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE6E9572853910A0002E0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE6E96E285397800002E0D1 /* Aereo.swift in Sources */,
+				CEE6E966285397270002E0D1 /* Person.swift in Sources */,
+				CEE6E95F2853910A0002E0D1 /* main.swift in Sources */,
+				CEE6E9702853978C0002E0D1 /* Aereoporto.swift in Sources */,
+				CEE6E9682853973C0002E0D1 /* Capitano.swift in Sources */,
+				CEE6E96A285397630002E0D1 /* Personale.swift in Sources */,
+				CEE6E96C285397750002E0D1 /* Passeggero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEE6E9602853910A0002E0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE6E9612853910A0002E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CEE6E9632853910A0002E0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CEE6E9642853910A0002E0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE6E9562853910A0002E0D1 /* Build configuration list for PBXProject "class Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE6E9602853910A0002E0D1 /* Debug */,
+				CEE6E9612853910A0002E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE6E9622853910A0002E0D1 /* Build configuration list for PBXNativeTarget "class Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE6E9632853910A0002E0D1 /* Debug */,
+				CEE6E9642853910A0002E0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE6E9532853910A0002E0D1 /* Project object */;
+}
